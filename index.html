@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+  <meta name="theme-color" content="#8d3528"/>
+  <meta name="description" content="Ukelele PRO: aprende, toca y disfruta. Práctica musical interactiva y adaptable a tu progreso."/>
+  <title>Ukelele PRO · Aprende, toca y disfruta</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png"/>
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png"/>
+  <link rel="apple-touch-icon" href="assets/favicon-192.png"/>
+  <link rel="manifest" href="manifest.webmanifest"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Navegación principal">
+      <div class="brand-wrap"><a href="#practicar" class="brand" aria-label="Ukelele PRO · Inicio"><img src="assets/logo-ukelele-pro.png" alt="Ukelele PRO"/></a><div class="brand-caption">TU ESPACIO MUSICAL</div></div>
+      <nav id="desktop-nav" class="nav-list"></nav>
+      <div class="side-bottom"><div class="side-note"><span class="side-note-mark">♫</span><p>Un poco cada día.<br/>La música llega tocando.</p></div><div class="profile-compact"><span class="avatar" id="sidebar-avatar">J</span><div><strong id="sidebar-name">Mi estudio</strong><span id="sidebar-level">Principiante · gCEA</span></div><button class="icon-button" data-go="profesor" aria-label="Configurar perfil">⚙</button></div></div>
+    </aside>
+    <div class="main-wrap">
+      <header class="topbar"><div class="mobile-brand"><img src="assets/favicon-64.png" alt=""/><strong>Ukelele<span>PRO</span></strong></div><div class="crumbs"><span class="crumb-prefix">Mi estudio</span><span class="chev">›</span><span id="page-crumb">Practicar</span></div><div class="top-actions"><span class="edition">EDICIÓN 01</span><button class="button-plain" id="text-size" title="Alternar letra grande" aria-label="Alternar letra grande">Aa</button><span class="avatar top-avatar" id="top-avatar">J</span></div></header>
+      <main id="main-content" tabindex="-1" aria-live="polite"></main>
+    </div>
+  </div>
+  <nav id="mobile-nav" class="mobile-nav" aria-label="Navegación móvil"></nav>
+  <div id="modal-root"></div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js" defer></script>
+</body>
+</html>
