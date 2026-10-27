@@ -18,6 +18,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Preparar y validar archivos compartidos
+        run: python3 scripts/prepare_static.py
       - uses: actions/configure-pages@v5
         with:
           enablement: true
