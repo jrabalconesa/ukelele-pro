@@ -102,3 +102,8 @@ body,button,input,select,textarea{font-family:'DM Sans',system-ui,sans-serif}h1,
  .hero .very-small{grid-column:1/-1;grid-row:5;max-width:none;margin:0;position:relative}
 }
 @media screen and (max-width:699px){.text-large .hero{display:grid}.text-large .hero-copy{display:contents}.text-large .hero-art{grid-column:1/-1;grid-row:4;height:220px;margin:16px 0 0}.text-large .hero-art img{width:100%;height:220px;max-width:180px}.text-large .hero button{grid-row:5}.text-large .hero .very-small{grid-row:6}.text-large .hero h1,.text-large .hero p:not(.very-small){grid-column:1/-1}}
+
+/* Reuse the application logo in the instrument card at every screen size. */
+.instrument-identity{display:grid;gap:12px;min-width:0}
+.instrument-logo{display:block;width:260px;max-width:100%;height:auto}
+.instrument-identity p{margin:8px 0 0}
