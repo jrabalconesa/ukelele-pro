@@ -4,8 +4,9 @@ import shutil,re
 root=Path(__file__).resolve().parents[1]
 dist=root/'dist'
 dist.mkdir(exist_ok=True)
-for name in ['index.html','app.js','styles.css','sw.js','manifest.webmanifest']:
+for name in ['index.html','app.js','styles.css','sw.js','manifest.webmanifest','favicon.ico','apple-touch-icon.png']:
  shutil.copy2(root/name,dist/name)
+shutil.copytree(root/'app-icons',dist/'app-icons',dirs_exist_ok=True)
 shutil.copytree(root/'assets',dist/'assets',dirs_exist_ok=True)
 for name in ['index.html','app.js','styles.css','sw.js']:
  text=(dist/name).read_text()

@@ -1,5 +1,5 @@
-const CACHE='ukelele-pro-static-v20261031';
-const FILES=['./','./index.html','./styles.css?v=13','./app.js?v=13','./manifest.webmanifest','./assets/logo-ukelele-pro.png','./assets/ukelele-pro-logo-unified.svg?v=10','./assets/favicon-pua.svg','./assets/favicon-64.png','./assets/ukelele-pua-180.png','./assets/ukelele-pua-192.png','./assets/ukelele-pua-512.png','./assets/ukulele-hero-ea03cae2.webp'];
+const CACHE='ukelele-pro-static-v20261031-menu';
+const FILES=['./','./index.html','./styles.css?v=13','./app.js?v=13','./manifest.webmanifest','./assets/logo-ukelele-pro.png','./assets/ukelele-pro-logo-unified.svg?v=10','./assets/favicon-pua.svg','./assets/favicon-64.png','./app-icons/logo-180-v20261031.png','./app-icons/logo-192-v20261031.png','./app-icons/logo-512-v20261031.png','./assets/ukulele-hero-ea03cae2.webp'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('ukelele-pro-static-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
 self.addEventListener('fetch',event=>{if(event.request.method!=='GET'||new URL(event.request.url).origin!==self.location.origin)return;event.respondWith(fetch(event.request).then(response=>{if(response.ok){const copy=response.clone();caches.open(CACHE).then(cache=>cache.put(event.request,copy))}return response}).catch(()=>caches.match(event.request)))});
