@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "app": "ukelele-pro",
+  "repository": "jrabalconesa/ukelele-pro",
+  "site_project_id": "appgprj_6ae0a3ebd5a88191971454c40b3aa936",
+  "updated": "2026-10-31",
+  "files": {
+    "app.js": "38ee497501cbf4499843d73feccb01eb6517b09debb5447ff040a2f08d76a241",
+    "index.html": "ff5de7dfae1b44d9b5dbf1655ad9cd74a71d9c77cd01ddc6c63c021f0cad185b",
+    "styles.css": "32d8f44bf0219a8cfa6176c1697c4bca8db17f35fd7c386f24e8f5efea8c6255",
+    "pro-transfer.js": "9332a8b0d708a3b642a159af740e2bb8da321b23d0d715ab8681516989971913",
+    "sw.js": "e0c9766e22f06ab50fe332f2d85f1f712bbf7a9d1c0b0ddd0d7b9ff7e5e61257",
+    "assets/ukulele-hero-ea03cae2.webp": "b3e32127f14478e9895475661d7072f9817ec58cd063498ead93e36a061f3c70",
+    "assets/favicon-pua.svg": "fe01bf5a9b11655d42e543cc2359aa873f13b2a2e3cea66f0d3c723a65cd7ec1",
+    "assets/favicon-64.png": "4a66f104ad722babc850ea2f00af8ec61d7247cea6f19185bd9440aa80ac8271",
+    "assets/ukelele-pro-logo-unified.svg": "3ab9b8217ddca0b81ec58c8778a27ff6f6ae00cba3e5c9460bd554e1a05ee7f3",
+    "assets/ukulele-hero.webp": "b3e32127f14478e9895475661d7072f9817ec58cd063498ead93e36a061f3c70",
+    "assets/logo-ukelele-pro.png": "06dec803752be0db10ddf446d9127517efef9887990bcc1b28f352e235316ac7",
+    "assets/favicon-192.png": "5ef46efec0f78031f6d38d68170c033947851461d6bc3e3b216183fa3fc730b7",
+    "assets/favicon-512.png": "2f03c2a102c27daec4d0011b3d5e5b2fca3fe57f585464573f887aa97f090cd0",
+    "assets/favicon-32.png": "8330d9a1489792be58716a49f94e0fbffa13b54109057385490c4bcf11cbfa7c",
+    "assets/fonts/manrope-800.ttf": "b8f802f05b322a7345805f5b89f8bb976604cc719a91530918d5ce3c47160950",
+    "assets/fonts/dm-sans-600.ttf": "b79a2ea7a38f33fd96a282fadb9ce97626bb0724a44d21075859f0e50239993a",
+    "assets/fonts/dm-sans-400.ttf": "b0ae3e89a7d3ef2b1838bb4b1ceb0b17cc3435af061eee809d76aa623ff116e9",
+    "assets/fonts/dm-sans-700.ttf": "2a8e7f713ee79fbccdef3cef5c787aff47580299f7da60144961e7db2ec08211",
+    "assets/fonts/manrope-700.ttf": "b9584e099e0e7f1e1e914c3037aabb9010c50346a3ce8df5eeeeecc0563044d8",
+    "assets/fonts/FONT-LICENSES.txt": "5c33984ab4105f81ad857fbbbd8c4c795cede555b0fc12f5b76474c3f64f2f1b",
+    "assets/fonts/dm-sans-500.ttf": "376427b5322148d8de1e03f263bcca4935a2d60ba71d9f94f4947ab664c711ae"
+  },
+  "policy": "three-way: compare both against these hashes; transfer one-sided changes; stop on conflicting edits; preserve platform adapters and Site audience; never sync user data automatically"
+}
