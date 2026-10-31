@@ -1,31 +1,31 @@
 {
-  "name": "Ukelele PRO · Aprende, toca y disfruta",
+  "id": "./",
+  "name": "Ukelele PRO",
   "short_name": "Ukelele PRO",
-  "description": "Aprende a tocar el ukelele con práctica interactiva y progresiva.",
-  "start_url": "./index.html",
+  "lang": "es",
+  "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#faf8f5",
+  "background_color": "#ffffff",
   "theme_color": "#8d3528",
-  "lang": "es",
   "icons": [
     {
-      "src": "assets/favicon-pua.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
+      "src": "https://jrabalconesa.github.io/ukelele-pro/app-icons/logo-192-v20261031.png",
+      "sizes": "192x192",
+      "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "assets/favicon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "assets/favicon-512.png",
+      "src": "https://jrabalconesa.github.io/ukelele-pro/app-icons/logo-512-v20261031.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "https://jrabalconesa.github.io/ukelele-pro/app-icons/logo-maskable-512-v20261031.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }
