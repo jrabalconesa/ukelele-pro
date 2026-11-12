@@ -10,19 +10,19 @@
   "theme_color": "#8d3528",
   "icons": [
     {
-      "src": "https://jrabalconesa.github.io/ukelele-pro/app-icons/logo-192-v20261031.png",
+      "src": "https://jrabalconesa.github.io/ukelele-pro/app-icons/pua-ukelele-192-v20261112.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "https://jrabalconesa.github.io/ukelele-pro/app-icons/logo-512-v20261031.png",
+      "src": "https://jrabalconesa.github.io/ukelele-pro/app-icons/pua-ukelele-512-v20261112.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "https://jrabalconesa.github.io/ukelele-pro/app-icons/logo-maskable-512-v20261031.png",
+      "src": "https://jrabalconesa.github.io/ukelele-pro/app-icons/pua-ukelele-maskable-512-v20261112.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
